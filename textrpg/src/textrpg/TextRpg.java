@@ -1,18 +1,10 @@
 package textrpg;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.util.HashMap;
 import java.util.Map;
 
 public class TextRpg {
-	
-	protected StringBuffer bf = new StringBuffer();
-	protected BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	protected BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
 	
 	private String name;
 	Map<String, Stage> stageList = new HashMap<String, Stage>();
@@ -31,24 +23,8 @@ public class TextRpg {
 	    stageList.put("Church", new StageChurch());
 	    nextStage = "MainMenu";
 	  }
-	
-	TextRpg(String name){
-		this.name=name;
-	}
 	public void run() {
-		printMainMenu();
-	}
 	
-	private void printMainMenu() {
-		bf.append(String.format("====%s====", name));
-		
-		try {
-			bw.append(bf);
-			bw.flush();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 	}
-	
 	
 }
