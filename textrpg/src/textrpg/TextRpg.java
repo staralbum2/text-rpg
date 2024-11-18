@@ -9,7 +9,7 @@ public class TextRpg {
 	private String name;
 	Map<String, Stage> stageList = new HashMap<String, Stage>();
 	
-	static String nextStage = "";
+	protected static String nextStage = "";
 	
 	String curStage = "";
 	
