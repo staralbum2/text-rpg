@@ -1,3 +1,4 @@
+
 package textrpg;
 
 public class StageMainMenu extends Stage{
