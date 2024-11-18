@@ -8,8 +8,9 @@ abstract public class User {
 	private int evasion;
 	private int accuracy;
 	private int critical;
+	private String name;
 	
-	public User(int power,int defence, int hp, int mp, int evasion,int accuracy,int criyical){
+	public User(String name,int power,int defence, int hp, int mp, int evasion,int accuracy,int criyical){
 		this.power=power;
 		this.defence=defence;
 		this.hp=hp;
