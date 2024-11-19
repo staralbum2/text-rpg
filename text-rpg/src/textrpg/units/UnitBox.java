@@ -89,8 +89,4 @@ public class UnitBox {
 			min = 200;
 		}
 	}
-	public static void main(String[] args) {
-		UnitBox ran = new UnitBox();
-		
-	}
 }
