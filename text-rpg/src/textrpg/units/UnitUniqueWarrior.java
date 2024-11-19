@@ -1,4 +1,4 @@
-package textrpg.units.unique;
+package textrpg.units;
 
 public class UnitUniqueWarrior extends UnitUnique{
 

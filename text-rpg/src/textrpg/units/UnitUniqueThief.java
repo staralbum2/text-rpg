@@ -1,4 +1,4 @@
-package textrpg.units.unique;
+package textrpg.units;
 
 public class UnitUniqueThief extends UnitUnique{
 

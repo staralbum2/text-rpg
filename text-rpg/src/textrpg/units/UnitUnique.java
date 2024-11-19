@@ -1,6 +1,4 @@
-package textrpg.units.unique;
-
-import textrpg.units.Unit;
+package textrpg.units;
 
 public abstract class UnitUnique extends Unit{
 

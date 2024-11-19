@@ -1,6 +1,4 @@
-package textrpg.units.rare;
-
-import textrpg.units.Unit;
+package textrpg.units;
 
 public class UnitRareWitch extends UnitRare {
 

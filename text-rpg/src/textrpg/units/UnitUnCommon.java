@@ -1,6 +1,4 @@
-package textrpg.units.uncommon;
-
-import textrpg.units.Unit;
+package textrpg.units;
 
 public abstract class UnitUnCommon extends Unit{
 

@@ -1,4 +1,4 @@
-package textrpg.units.uncommon;
+package textrpg.units;
 
 public class UnitUncommonArcher extends UnitUnCommon {
 
