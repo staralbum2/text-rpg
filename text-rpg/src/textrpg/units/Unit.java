@@ -8,10 +8,10 @@ import java.util.Random;
 
 abstract public class Unit {
 
-	protected static StringBuffer bf = new StringBuffer();
-	protected static  BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	protected static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-	protected static Random ran = new Random();
+	protected StringBuffer bf = new StringBuffer();
+	protected BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	protected BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+	protected Random ran = new Random();
 
 	protected final int MAX_HP;
 	protected int power;

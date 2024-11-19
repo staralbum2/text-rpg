@@ -19,9 +19,15 @@ public class TextRpg {
 	Map<String, Stage> stageList = new HashMap<String, Stage>();
 	
 	public static String nextStage = "";
-	
+	public static int currentRound;
 	String curStage = "";
 	
+	public int getCurrentRound() {
+		return currentRound;
+	}
+	public void setCurrentRound(int currentRound) {
+		this.currentRound = currentRound;
+	}
 	void init(){
 	    stageList.put("MainMenu", new StageMainMenu());
 	    stageList.put("Batte", new StageBattle());
