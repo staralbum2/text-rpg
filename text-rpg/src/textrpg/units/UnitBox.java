@@ -35,7 +35,7 @@ public class UnitBox {
 				bw.flush();
 				Thread.sleep(1000);
 				if(i<2)
-				bw.append("~");
+				bw.append("~ ");
 			}
 			bw.append(String.format("%s가 당신의 동료로 합류했습니다.", rateUnits[ranIdx]));
 			bw.flush();
