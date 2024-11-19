@@ -2,7 +2,7 @@ package textrpg.units;
 
 public class UnitUncommonThief extends UnitUnCommon {
 
-	public UnitUncommonThief(String name, String attack, int power, int defence, int hp, int speed, int criyical) {
+	public UnitUncommonThief() {
 		super("좀도둑","소매치기", 20, 20, 300, 40, 30);
 	}
 }
