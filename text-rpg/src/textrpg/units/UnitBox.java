@@ -98,5 +98,11 @@ public class UnitBox {
 			return null;
 		}
 	}
+	// 생성 체크 임시
+	public static void main(String[] args) {
+        UnitBox unitBox = new UnitBox("textrpg.units", 5); 
+        Unit generatedUnit = unitBox.generateUnit();
+        System.out.println("Generated Unit: " + generatedUnit);
+    }
 
 }
