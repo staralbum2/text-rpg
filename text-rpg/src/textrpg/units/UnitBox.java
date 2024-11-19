@@ -31,9 +31,10 @@ public class UnitBox {
 			StringBuffer bf = new StringBuffer();
 			BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 			for (int i = 0; i < 3; i++) {
-				bw.append("두근두근... ");
+				bw.append("두근두근...\n");
 				bw.flush();
 				Thread.sleep(1000);
+				if(i<2)
 				bw.append("~");
 			}
 			bw.append(String.format("%s가 당신의 동료로 합류했습니다.", rateUnits[ranIdx]));
@@ -46,27 +47,27 @@ public class UnitBox {
 		int ranCnt = ran.nextInt(max) + min;
 		Unit[] rateUnits = new Unit[3];
 		;
-		if (ranCnt >= 125) {
+		if (ranCnt <= 125) {
 			rateUnits[0] = new UnitCommonGoblin();
 			rateUnits[1] = new UnitCommonPeasant();
 			rateUnits[2] = new UnitCommonWolf();
-		} else if (ranCnt >= 250) {
+		} else if (ranCnt <= 250) {
 			rateUnits[0] = new UnitUncommonThief();
 			rateUnits[1] = new UnitUncommonArcher();
 			rateUnits[2] = new UnitUnCommonWarrior();
-		} else if (ranCnt >= 321) {
+		} else if (ranCnt <= 321) {
 			rateUnits[0] = new UnitRareMage();
 			rateUnits[1] = new UnitRareSister();
 			rateUnits[2] = new UnitRareWitch();
-		} else if (ranCnt >= 510) {
+		} else if (ranCnt <= 510) {
 			rateUnits[0] = new UnitUniqueArchor();
 			rateUnits[1] = new UnitUniqueThief();
 			rateUnits[2] = new UnitUniqueWarrior();
-		} else if (ranCnt >= 580) {
+		} else if (ranCnt <= 580) {
 			rateUnits[0] = new UnitEpicArcher();
 			rateUnits[1] = new UnitEpicThief();
 			rateUnits[2] = new UnitEpicWarrier();
-		} else if (ranCnt >= 600) {
+		} else if (ranCnt <= 600) {
 			rateUnits = new Unit[6];
 			rateUnits[0] = new UnitLegendApollon();
 			rateUnits[1] = new UnitLegendArtemis();
@@ -88,5 +89,8 @@ public class UnitBox {
 			min = 200;
 		}
 	}
-
+	public static void main(String[] args) {
+		UnitBox ran = new UnitBox();
+		
+	}
 }
