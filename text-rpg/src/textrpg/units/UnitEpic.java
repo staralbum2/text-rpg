@@ -1,6 +1,4 @@
-package textrpg.units.epic;
-
-import textrpg.units.Unit;
+package textrpg.units;
 
 abstract public class UnitEpic extends Unit{
 

@@ -1,4 +1,4 @@
-package textrpg.units.common;
+package textrpg.units;
 
 public class UnitCommonWolf extends UnitCommon{
 

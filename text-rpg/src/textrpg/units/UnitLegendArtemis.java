@@ -1,4 +1,4 @@
-package textrpg.units.legend;
+package textrpg.units;
 
 public class UnitLegendArtemis extends UnitLegend{
 

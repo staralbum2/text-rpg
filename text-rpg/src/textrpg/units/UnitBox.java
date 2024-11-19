@@ -57,7 +57,7 @@ public class UnitBox {
 		}
 
 		return new int[] { min, max };
-	}
+	}	
 
 	private String selectGrade() {
 		int roll = random.nextInt(601);

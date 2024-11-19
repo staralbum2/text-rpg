@@ -1,4 +1,4 @@
-package textrpg.units.epic;
+package textrpg.units;
 
 public class UnitEpicArcher extends UnitEpic{
 

@@ -1,6 +1,4 @@
-package textrpg.units.legend;
-
-import textrpg.units.Unit;
+package textrpg.units;
 
 public class UnitLegendZeus extends UnitLegend{
 
