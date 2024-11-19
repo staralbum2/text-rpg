@@ -4,7 +4,17 @@ public class StageGuild extends Stage{
 
 	@Override
 	public boolean update() {
-		// TODO Auto-generated method stub
+		try {
+			bw.append("=====[길드관리소]=====\n[1. 파티 편성] [2. 길드원 확인] [3. 돌아가기]");
+			bw.flush();
+			int sel = Integer.parseInt(br.readLine());
+			
+			 if (sel == 3) 
+				TextRpg.nextStage = "Village";			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
 		return false;
 	}
 
