@@ -2,9 +2,9 @@ package textrpg.stage;
 
 import java.util.ArrayList;
 
-import textrpg.TextRpg;
 import textrpg.player.Guild;
 import textrpg.player.Player;
+import textrpg.system.TextRpg;
 import textrpg.units.Unit;
 
 public class StageGuild extends Stage {

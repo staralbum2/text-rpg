@@ -7,10 +7,14 @@ import textrpg.units.Unit;
 public class Guild {
 	private Unit member;
 	private boolean isParty;
+	
+
+
 	public boolean isParty() {
 		return isParty;
 	}
-
+	
+	
 	public void setParty(boolean isParty) {
 		this.isParty = isParty;
 	}

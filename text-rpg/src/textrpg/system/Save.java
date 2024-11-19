@@ -1,4 +1,4 @@
-package textrpg;
+package textrpg.system;
 
 public class Save {
 

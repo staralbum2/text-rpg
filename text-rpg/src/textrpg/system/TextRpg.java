@@ -1,4 +1,4 @@
-package textrpg;
+package textrpg.system;
 
 import java.util.HashMap;
 import java.util.Map;

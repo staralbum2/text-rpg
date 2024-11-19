@@ -5,9 +5,9 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Random;
 
-import textrpg.TextRpg;
 import textrpg.player.Guild;
 import textrpg.player.Player;
+import textrpg.system.TextRpg;
 
 public class UnitBox {
 	private Random ran = new Random();

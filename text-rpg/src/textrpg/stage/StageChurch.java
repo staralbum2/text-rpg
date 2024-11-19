@@ -1,6 +1,6 @@
 package textrpg.stage;
 
-import textrpg.TextRpg;
+import textrpg.system.TextRpg;
 
 public class StageChurch extends Stage {
 
