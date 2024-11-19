@@ -3,13 +3,22 @@ package textrpg;
 import java.util.HashMap;
 import java.util.Map;
 
+import textrpg.stage.Stage;
+import textrpg.stage.StageBattle;
+import textrpg.stage.StageChurch;
+import textrpg.stage.StageGuild;
+import textrpg.stage.StageMainMenu;
+import textrpg.stage.StageRoom;
+import textrpg.stage.StageStore;
+import textrpg.stage.StageVillage;
+
 public class TextRpg {
 
 	
 	private String name;
 	Map<String, Stage> stageList = new HashMap<String, Stage>();
 	
-	protected static String nextStage = "";
+	public static String nextStage = "";
 	
 	String curStage = "";
 	
