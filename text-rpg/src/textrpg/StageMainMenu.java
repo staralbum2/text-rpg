@@ -6,7 +6,7 @@ public class StageMainMenu extends Stage {
 	public boolean update() {
 
 		try {
-			bw.append("=====[TextRpg]=====\n[1. 처음부터] [2. 이어하기] [3. 종료]");
+			bw.append("=====[TextRpg]=====\n[1. 처음부터]\n[2. 이어하기]\n[3. 종료]");
 			bw.flush();
 			int sel = Integer.parseInt(br.readLine());
 			if (sel == 1)
