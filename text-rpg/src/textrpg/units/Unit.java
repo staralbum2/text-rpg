@@ -38,7 +38,7 @@ abstract public class Unit {
 	}
 
 
-	public int getMAX_HP() {
+	public int getMaxHp() {
 		return MAX_HP;
 	}
 

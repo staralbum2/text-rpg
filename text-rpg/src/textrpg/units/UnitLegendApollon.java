@@ -15,7 +15,7 @@ public class UnitLegendApollon extends UnitLegend{
 				debuff = 0;
 			}
 			target.setHp(target.getHp() + damage);
-			bw.append(String.format("%s hp : %d/%d", target.getName(), target.getHp(), target.getMAX_HP()));
+			bw.append(String.format("%s hp : %d/%d", target.getName(), target.getHp(), target.getMaxHp()));
 			bw.flush();
 		
 		} catch (Exception e) {
